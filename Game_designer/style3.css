@@ -1,0 +1,67 @@
+body{
+  background-size: 1550px 2000px;
+  background-color: rgb(30,30,30);
+}
+header.page-header {
+   background-image: url('https://media.istockphoto.com/id/1187317838/vector/japanese-colorful-flower-seamless-pattern.jpg?s=612x612&w=0&k=20&c=V85xZYej73OT2YJj9VswxDajS4id1PjfcOVMR8f9Jts=');
+  background-repeat: no-repeat;
+  display: flex;
+  height: 110px;
+  width: 470px;
+  align-items: center;
+  color: #fff;
+  text-shadow: #000 0 0 .2em;
+}
+header.page-header > h1 {
+  font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
+  margin: 17.5%;
+}
+#nav {
+  list-style: none ;
+  margin: 0 ;
+  padding: 0 ;
+  overflow: hidden ;	/* Création du contexte de formatage */
+}
+#nav li {
+  float: left ;
+  width: 155px ;
+  border: 1px solid #000 ;
+  margin-right: 1px ;
+}
+#nav li a {
+  display: block ;
+  background: #fff;
+  color: #000 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  padding: 4px 0 ;
+  text-align: center ;
+  text-decoration: none ;
+}
+#nav li a:hover, #nav li a:focus, #nav li a:active {
+  background: #000 ;
+  color: white;
+  text-decoration: underline ;
+}
+#parablanc{
+  margin: 9px 0;
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+#tab{
+  border : solid 3px black;
+  margin: auto;
+}
+#link{
+  color: white
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: black;
+  color: #fff;
+  font-family: Papyrus;
+  position; relative;
+  bottom: 0;
+}
